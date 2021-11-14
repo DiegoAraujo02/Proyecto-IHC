@@ -214,5 +214,90 @@ h3 {
     .quienessomos-contenido-texto {
         font-size: 3rem;
     }
-    
+}
+
+
+/* Planes */
+.planes {
+    padding: 5rem 0;
+    font-family: var(--mon);
+}
+.planes-titulo {
+    font-size: 6rem;
+}
+.planes-titulo {
+    text-align: center;
+}
+.planes-conjunto-contenido {
+    border-radius: 2.5rem;
+    background-color: var(--gris);
+    padding: 2rem 0 6rem 0;
+    width: 30rem;
+    text-align: center;
+    margin: 2rem auto;
+}
+.planes-conjunto-contenido-titulo {
+    font-size: 3.6rem;
+    margin: 0 0 2rem 0;
+    color: var(--grisOscuro);
+}
+.planes-conjunto-contenido-precio {
+    margin: 1rem 0;
+    font-size: 6.4rem;
+    color: var(--grisOscuro);
+}
+.planes-conjunto-contenido-duracion{
+    padding-bottom: 2rem;
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: var(--grisSemi);
+}
+.planes-contenido-descripcion {
+    color: var(--grisSemi);
+    font-size: 1.8rem;
+}
+.planes-bold {
+    font-weight: bold;
+    color: var(--grisOscuro);
+}
+@media (min-width: 1500px) {
+    .planes {
+        padding: 15rem 0;
+    }
+    .planes-conjunto {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        text-align: center;
+        gap: 30rem;
+    }
+}
+/** Footer **/
+.footer {
+    display: block;
+    text-align: center;
+    background-color: var(--marron);
+    margin: 0;
+    max-width: 100%;
+    color: var(--blanco);
+    padding: 0 4rem;
+}
+.footer-terminos a {
+    text-align: center;
+}
+.footer-terminos a {
+    color: var(--blanco);
+}
+.footer-imagenes:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-terminos {
+        width: 20rem;
+    }
 }
