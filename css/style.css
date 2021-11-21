@@ -375,3 +375,35 @@ h3 {
         width: 20rem;
     }
 }
+/* Funcionalidad */
+.funcionalidad {
+    padding: 5rem 0;
+}
+.funcionalidad h3 {
+    text-align: center;
+    color:var(--marron);
+}
+.funcionalidad img {
+    max-width: 20rem;
+    margin: 0 auto;
+}
+.funcionalidad p{
+    text-align: center;
+}
+.funcionalidades h2 {
+    text-align: center;
+    font-size: 6rem;
+}
+.funcionalidad {
+    display: grid;
+}
+@media (min-width: 768px) {
+    .funcionalidades {
+        max-width: 120rem;
+    }
+    .f-arquitecto, .f-comprador {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 2rem;
+    }
+}
